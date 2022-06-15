@@ -144,7 +144,7 @@ public class Labirinto {
     //Função para validar se encontrou a saída ou não e se o labirinto possui saída
     public boolean encontraSaida() {
         if (Objects.equals(labirinto[linha.ultimaPosicao()][coluna.ultimaPosicao()], "S")) {
-            System.out.println("Você encontrou a saída! UHUUUL");
+            System.out.println("Vc encontrou a saida! UHUUUL");
 
             return true;
         }
@@ -163,7 +163,7 @@ public class Labirinto {
         coluna.push(1);
         ultimaPosicao.push(0);
 
-        System.out.println("Você está na entrada: " + linha.ultimaPosicao() + ", " + coluna.ultimaPosicao());
+        System.out.println("Vc esta na entrada: " + linha.ultimaPosicao() + ", " + coluna.ultimaPosicao());
 
     }
 
