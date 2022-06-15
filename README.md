@@ -4,3 +4,19 @@
 
 <p>O trabalho foI desenvolvido em Java.</p>
 
+<h4>O labirinto se inicia na casa de entrada como mostrado na imagem a seguir e a partir disso testa para onde pode andar</h4>
+<br>
+<img src="https://github.com/akitodr/LogicaMatematica/blob/main/img/img1.png">
+<br>
+<h4>Quando se encontra uma posição válida, a posição é inserida na pilha e ocorre o movimento</h4>
+<br>
+<img src="https://github.com/akitodr/LogicaMatematica/blob/main/img/img1.png">
+<br>
+<h4>Quando se encontra uma posição inválida, o labirinto desempilha a última posição e tenta encontrar uma posição válida</h4>
+<br>
+<img src="https://github.com/akitodr/LogicaMatematica/blob/main/img/img1.png">
+<br>
+<h4>O processo descrito se repete até encotrar a saída</h4>
+<br>
+<img src="https://github.com/akitodr/LogicaMatematica/blob/main/img/img1.png">
+<br>
